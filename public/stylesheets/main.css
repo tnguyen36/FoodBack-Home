@@ -1,0 +1,10 @@
+body {
+	background: url("http://sfwallpaper.com/images/background-image-for-website-3.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.form.container {	
+	margin-top: 25vh;
+	
+}

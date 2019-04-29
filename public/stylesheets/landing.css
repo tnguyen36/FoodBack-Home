@@ -1,0 +1,33 @@
+body {
+	background: url("https://static1.squarespace.com/static/59fb2fa20abd042e68f0b834/t/5a0072c5e31d1974b6be0f4b/1509978829172/Website+background.jpg?format=2500w") no-repeat center center fixed;
+	background-size: cover;		
+}
+
+
+.nav-link {
+	color:white;
+	font-weight: 700;
+}
+
+.nav-link::after {
+	content:'__';   
+	position:relative;
+	text-align: center;
+	right: 50%;
+	top: 10px;          
+}
+
+
+.landing-header.container {
+	width: 45%;
+}
+
+.landing-header {
+	margin-top: 25vh;
+	color: white;
+	padding-bottom: 1.5%;
+}
+
+.landing-header h1 {
+	font-size: 3.5rem;
+}
