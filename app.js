@@ -14,6 +14,21 @@ app.get("/login", function(req, res) {
 	res.render("login");
 });
 
+// Register route
+app.get("/register", function(req, res) {
+	res.render("register");
+});
+
+// Index route
+app.get("/foodpost", function(req, res) {
+	res.render("index");
+});
+
+// Create Route
+app.get("/foodpost/new", function(req, res) {
+	res.render("new");
+});
+
 
 
 app.listen(3000, function() {

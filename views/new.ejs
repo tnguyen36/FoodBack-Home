@@ -1,0 +1,36 @@
+<% include partials/header %>
+<div class="container text-center new-form">
+	<h1>Add a New Food</h1>
+	<form>
+		<div class="form-group">
+    		<label for="name">Food Name:</label>
+    		<input type="text" class="form-control" id="name"  placeholder="Enter name">
+  		</div>
+  		 <div class="form-group">
+		    <label for="category">Food Category:</label>
+		    <select class="form-control" id="category">
+				<option>Appetizers</option>
+				<option>Beverages</option>
+			    <option>Breads/Rolls/Pastries</option>
+			    <option>Desserts</option>
+			    <option>Main Dishes</option>
+			    <option>Salads</option>
+			    <option>Snacks</option>
+			    <option>Soups</option>
+			    <option>Other</option>
+		    </select>
+		  </div>
+		  <div class="form-group">
+    		<label for="origin">Origin ex.)Homemade, Storebought, Restaurant Order:</label>
+    		<input type="text" class="form-control" id="origin" placeholder="Origin">
+  		</div>
+  		<div class="form-group">
+		    <label for="exampleFormControlTextarea1">Description:</label>
+		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+		<a class="btn btn-primary" href="/foodpost">Create new food</a>
+
+	</form>
+</div>
+
+<% include partials/footer%>
